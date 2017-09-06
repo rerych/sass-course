@@ -4,12 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>My New Site!</title>
 
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
-<body>
-    anything random here.
-    more random stuff here
+<body class="site single">
+
+    <!-- HEADER -->
+    <header id="site__header"></header>
+
+    <!-- MAIN -->
+    <main id="site__main">
+
+        <!-- ARTICLE -->
+        <article class="article article--single">
+
+            <!-- ARTICLE HEADER -->
+            <header class="article__header">
+                <h1>Achieving Geo-search with Laravel Scout and Algolia</h1>
+
+                <!-- BYLINE -->
+                <div class="byline">
+                    <div class="byline__box byline__author">
+                        Markus Rerych
+                    </div>
+                    <div class="byline__box byline__time">
+                        <time>January 1., 1900</time>
+                    </div>
+                </div>
+            </header>
+
+            <!-- ARTICLE IMAGE -->
+            <div class="article__image">
+                <img src="https://cdn.scotch.io/33885/LzhEH59yREy3Xe6yjeHw_Illu_JulienB_Laravel-Algolia-01.png.jpg">
+            </div>
+
+            <!-- ARTICLE BUTTONS -->
+            <div class="actions">
+                <a href="#" class="actions__btn actions__btn--code">View Code</a>
+                <a href="#" class="actions__btn actions__btn--demo">View Demo</a>
+            </div>
+
+            <!-- ARTICLE INNER -->
+            <div class="article__inner">
+
+                <!-- SIDEBAR -->
+                <aside class="sidebar">
+
+                    <!-- TABLE OF CONTENTS -->
+                    <div class="sidebar__box">
+                        <h3>&lt;ul&gt; of Contents</h3>
+
+                        <ul class="table-of-contents">
+                            <li><a href="#">Introduction</a></li>
+                            <li><a href="#">Getting Started</a></li>
+                            <li><a href="#">Implementing</a></li>
+                            <li><a href="#">Building</a></li>
+                            <li><a href="#">Conclusion</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- SIDEBAR ADS -->
+                    <div class="sidebar__box">
+                        <div class="ad">
+                            <img src="http://placekitten.com/g/300/250">
+                        </div>
+                    </div>
+
+                    <div class="sidebar__box share-buttons">
+                        <a class="share-button background-twitter" href="#">Twitter</a>
+                        <a class="share-button background-facebook" href="#">Facebook</a>
+                    </div>
+                </aside>
+
+                <!-- CONTENT BODY -->
+                <div class="article__content content">
+                    <p>Lorem ipsom Lorem ipsom  Lorem ipsom Lorem ipsom 
+                        Lorem ipsom Lorem ipsom Lorem ipsom Lorem ipsom 
+                        Lorem ipsom Lorem ipsom Lorem ipsom Lorem ipsom 
+                        Lorem ipsom Lorem ipsom Lorem ipsom Lorem ipsom 
+                        Lorem ipsom Lorem ipsom Lorem ipsom Lorem ipsom</p>
+
+                    <!-- TABLE OF CONTENTS -->
+                    <ul>
+                        <li><a href="#">Introduction</a></li>
+                        <li><a href="#">Getting Started</a></li>
+                        <li><a href="#">Implementing</a></li>
+                        <li><a href="#">Building</a></li>
+                        <li><a href="#">Conclusion</a></li>
+                    </ul>
+
+                    <h2>Introduction</h2>
+
+                    <p>Lorem ipsom Lorem ipsom  Lorem ipsom Lorem ipsom 
+                        Lorem ipsom Lorem ipsom Lorem ipsom Lorem ipsom 
+                        Lorem ipsom Lorem ipsom Lorem ipsom Lorem ipsom 
+                        Lorem ipsom Lorem ipsom Lorem ipsom Lorem ipsom 
+                        Lorem ipsom Lorem ipsom Lorem ipsom Lorem ipsom</p>
+                        
+                    <img src="https://cdn.scotch.io/33885/LzhEH59yREy3Xe6yjeHw_Illu_JulienB_Laravel-Algolia-01.png.jpg">
+                    
+                    <pre><code>
+&lt;ul class="table-of-contents"&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Implementing&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Building&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+                    </code></pre>
+
+                    <h3>Smaller Section</h3>
+
+                    <p>Lorem ipsom Lorem ipsom  Lorem ipsom Lorem ipsom 
+                        Lorem ipsom Lorem ipsom Lorem ipsom Lorem ipsom 
+                        Lorem ipsom Lorem ipsom Lorem ipsom Lorem ipsom 
+                        Lorem ipsom Lorem ipsom Lorem ipsom Lorem ipsom 
+                        Lorem ipsom Lorem ipsom Lorem ipsom Lorem ipsom</p>
+                </div>
+
+        </article>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="site__footer"></footer>
+
 </body>
 </html>
